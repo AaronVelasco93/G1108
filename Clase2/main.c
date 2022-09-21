@@ -5,15 +5,20 @@
 
 int main(int argc, char *argv[]) {
 	//declaracion de variables
-	int numero1=1;
+	int numero1=3;
 	int numero2=2;
-	int nunero3=0;
+	int numero3=0;
 	
 	//operacion
 	
-	nunero3=numero1+numero2;
+	numero3=numero1+numero2;
+	//printf("Hola mundo");
+//	printf("El Resultado de la suma es: %d",numero3);
 	
+	printf("La suma de: %d + %d = %d ",numero1,numero2,numero3);
+	/*
 	
+	*/
 	
 	return 0;
 }
